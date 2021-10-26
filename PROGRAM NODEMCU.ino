@@ -80,9 +80,9 @@ void setup() {
   lcd.begin();
   lcd.backlight();
   lcd.setCursor(2,0);
-  lcd.print("TUGAS AKHIR");
+  lcd.print("KANDANG AYAM");
   lcd.setCursor(1,1);
-  lcd.print("ANGGUN & INDAH");
+  lcd.print("BERBASIS IOT");
   delay(5000);
   lcd.clear();
   dht.begin();
